@@ -15,7 +15,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs')
 
 app.use('/', (req, res)=> {
-    console.log('Hey welcome to home');
     res.send('Hey welcome to home')
 });
 
